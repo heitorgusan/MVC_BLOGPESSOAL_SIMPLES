@@ -14,7 +14,7 @@ import javax.validation.constraints.Size;
 
 @Entity //Indica que essa classe será uma entidade(tabela e mais algumas coisas) do meu jpa hibernate que linkara o banco de dados
 @Table(name = "postagem") // A entidade criará uma tabela chamada "postagem"
-public class Postagem {
+public class PostagemModel {
 	
 	@Id //Chave Primária
 	@GeneratedValue(strategy= GenerationType.IDENTITY) //Gerará uma identidade sem duplicidade no ID, famoso auto created
